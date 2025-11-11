@@ -21,4 +21,4 @@ version_control/autoload_on_startup=true
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/GodotTogether/plugin.cfg")
+enabled=PackedStringArray()
