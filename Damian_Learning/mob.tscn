@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://cxe7x612wa57b"]
+[gd_scene load_steps=10 format=3 uid="uid://cxe7x612wa57b"]
 
 [ext_resource type="Script" uid="uid://b4cs40sckl84u" path="res://Damian_Learning/mob.gd" id="1_tgidx"]
 [ext_resource type="Texture2D" uid="uid://bswpsrdd0y1mp" path="res://dodge_the_creeps_2d_assets/art/enemyFlyingAlt_1.png" id="1_v3fpv"]
@@ -44,7 +44,11 @@ animations = [{
 "speed": 3.0
 }]
 
-[node name="Mob" type="RigidBody2D"]
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_tgidx"]
+radius = 38.0
+height = 76.0
+
+[node name="Mob" type="RigidBody2D" groups=["mobs"]]
 collision_mask = 0
 gravity_scale = 0.0
 script = ExtResource("1_tgidx")
@@ -56,5 +60,6 @@ sprite_frames = SubResource("SpriteFrames_nah7r")
 animation = &"Walk"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_tgidx")
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
