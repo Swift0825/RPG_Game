@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c01kq2w08r72m"
-path="res://.godot/imported/icon2.svg-72130b1822965a82303075846d8629f5.ctex"
+uid="uid://dik5mvdou2x3c"
+path="res://.godot/imported/Pilars-removebg-preview.png-06f645ab4ea7ef52f9aaf2fd9b507910.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icon2.svg"
-dest_files=["res://.godot/imported/icon2.svg-72130b1822965a82303075846d8629f5.ctex"]
+source_file="res://Assets/Art/Backgrounds/PillarWorld/Pilars-removebg-preview.png"
+dest_files=["res://.godot/imported/Pilars-removebg-preview.png-06f645ab4ea7ef52f9aaf2fd9b507910.ctex"]
 
 [params]
 
@@ -38,6 +38,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false
