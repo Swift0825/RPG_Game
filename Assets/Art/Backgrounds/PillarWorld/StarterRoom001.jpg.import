@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dik5mvdou2x3c"
-path="res://.godot/imported/Pilars-removebg-preview.png-06f645ab4ea7ef52f9aaf2fd9b507910.ctex"
+uid="uid://cmcgwnsp3pxnq"
+path="res://.godot/imported/StarterRoom001.jpg-1a3640f33482d5a19dc9d11edf31b785.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Art/Backgrounds/PillarWorld/Pilars-removebg-preview.png"
-dest_files=["res://.godot/imported/Pilars-removebg-preview.png-06f645ab4ea7ef52f9aaf2fd9b507910.ctex"]
+source_file="res://Assets/Art/Backgrounds/PillarWorld/StarterRoom001.jpg"
+dest_files=["res://.godot/imported/StarterRoom001.jpg-1a3640f33482d5a19dc9d11edf31b785.ctex"]
 
 [params]
 

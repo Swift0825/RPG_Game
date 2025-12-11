@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2p76q3x87moy"]
+
+[ext_resource type="Texture2D" uid="uid://cmcgwnsp3pxnq" path="res://Assets/Art/Backgrounds/PillarWorld/StarterRoom001.jpg" id="1_sy5k4"]
+
+[node name="Node" type="Node"]
+
+[node name="Background" type="TextureRect" parent="."]
+offset_right = 3840.0
+offset_bottom = 2160.0
+texture = ExtResource("1_sy5k4")
